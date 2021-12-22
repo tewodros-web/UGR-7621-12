@@ -1,0 +1,107 @@
+body{
+    background-color: #0F1624;
+    font-style: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card__header{
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card__header__menu{
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px black;
+}
+.card__header__nav{
+    display: flex;
+    
+}
+.card__header__nav__button{
+    margin-left: 1em;
+    
+}
+.card__header__nav__button__link{
+    color: black;
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px;
+}
+.card--heading{
+    width:80vw;
+    justify-self: flex-start;
+  
+}
+.card__heading{
+    width:20vw;
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px;
+}
+.card--headline{
+    max-width:80vw;
+    justify-self: flex-start;
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px;
+
+    
+}
+.card--comment{
+    margin-left:10%;
+    width:50vw;
+    flex:1 1 0;
+    justify-content:  flex-end;
+}
+
+.card__comment__form{
+    margin-top: 2em;
+    height: 70px;
+    width:30vw;
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px;
+}
+.card__comment__form__textarea{
+    height: 140px;
+}
+.card--contact{
+    width:40vw;
+    flex: 1 1 0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.card__contact__embeded{
+    max-width: 250px;
+    max-height:200px;
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px;
+}
+.card--footer{
+    width:80vw;
+    margin-top:auto;
+    align-self:flex-end;
+    text-align: center;
+
+    grid-column: span 4;
+    
+    
+}
+.card__footer__social{
+    margin: 0 35%;
+
+    display:flex;
+    /* border: solid black; */
+    
+    justify-content: space-between;
+
+}
+.card__footer__social__media{
+    background-color:rgba(0, 0, 0, 0.27);
+    box-shadow: 0 0 15px black;
+}

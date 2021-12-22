@@ -1,0 +1,64 @@
+
+body{
+    background-color: #0F1624;
+    background-repeat: none;
+    background-size:cover;
+}
+.card--header{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card__navigation__list__button{
+    list-style-type:none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    /* background-color: rgba(2, 1, 1, 0.678); */
+    margin-bottom: 3px;
+    border-radius:0.9em;
+  
+    text-align:left;
+
+    
+}
+.card__navigation__list__button__link:hover{
+    background-color: rgba(41, 26, 26, 0.24);
+    border-top-right-radius: 30%;  
+    border-bottom-left-radius: 30%;
+    /* border-top: solid black thick; */
+    border-bottom: solid black thick;
+    border-left: solid black thick;
+    border-right: solid black thin;
+
+}
+.card__navigation__list__button__link:active{
+   border: inset black thin;
+
+}
+.card__navigation__list__button__link{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-size:larger;
+    line-height:1.9em ;
+    
+    
+    
+
+}
+.card__main__head{
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.card__main{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    text-align:left;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+}
+.card__footer__social{
+    list-style-type:none;
+    
+}
